@@ -94,6 +94,17 @@ body {
   width: 72px;
   height: 43px;  
   opacity: 0.9;  
-  background-image  : url(steel.jpg);
-  background-repeat : no-repeat;
+  background-image: linear-gradient(right top, rgb(122,117,117) 25%, rgb(207,207,207) 78%);
+  background-image: -o-linear-gradient(right top, rgb(122,117,117) 25%, rgb(207,207,207) 78%);
+  background-image: -moz-linear-gradient(right top, rgb(122,117,117) 25%, rgb(207,207,207) 78%);
+  background-image: -webkit-linear-gradient(right top, rgb(122,117,117) 25%, rgb(207,207,207) 78%);
+  background-image: -ms-linear-gradient(right top, rgb(122,117,117) 25%, rgb(207,207,207) 78%);
+  background-image: -webkit-gradient(
+  linear,
+  right top,
+  left bottom,
+  color-stop(0.25, rgb(122,117,117)),
+  color-stop(0.78, rgb(207,207,207))
+  );
+
 }
